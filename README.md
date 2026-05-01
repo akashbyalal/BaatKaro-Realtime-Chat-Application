@@ -24,12 +24,18 @@ Users can create profiles, send text and image messages, and view shared media w
 - Backend: Firebase (Auth, Firestore, Storage)
 - State Management: Context API
 
----
 
-## 📂 Project Structure
-src/
-├── components/
-├── pages/
-├── context/
-├── config/
-└── assets/
+## Note
+
+This project was initially built by following a tutorial and later extended with additional features and fixes.
+
+## Future Improvements
+
+- Message seen status  
+- Typing indicator  
+- Group chats  
+- Notifications  
+
+## Author
+
+Akash Byalal
