@@ -27,3 +27,9 @@ Users can create profiles, send text and image messages, and view shared media w
 ---
 
 ## 📂 Project Structure
+src/
+├── components/
+├── pages/
+├── context/
+├── config/
+└── assets/
