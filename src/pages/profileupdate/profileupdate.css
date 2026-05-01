@@ -1,0 +1,61 @@
+.updateprofile{
+    min-height: 100vh;
+    background: url(/background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-containers{
+    background: 	#292929 ;
+    max-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 700px;
+    border-radius: 10px;
+}
+.logo{
+    width: max(50vw, 200px);
+}
+
+.updateprofile form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+.updateprofile form h3{
+    color: #ffa31a;
+    font-weight: 500;
+}
+.updateprofile label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #808080;
+    cursor: pointer;
+}
+.updateprofile label img {
+    width: 60px;
+    height: 60px;        /* force square */
+    border-radius: 50%;
+    object-fit: cover;   /* crop instead of stretch */
+}
+.updateprofile input, textarea{
+    padding: 10px;
+    min-width: 300px;
+    border: 1px solid #292929;
+    outline-color: #ffa31a;
+}
+
+.updateprofile form button{
+    border: none;
+    color: black;
+    background-color: #ffa31a;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
